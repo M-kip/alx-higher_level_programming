@@ -1,9 +1,8 @@
 #!/usr/bin/python3
-"""
-  Rectangle class empty can create class attributes/ variables on the fly
-"""
 
-class Rectangle:
-    """ Empty class """
+"""Module with the class Rectangle()"""
 
+
+class Rectangle():
+    """Empty class"""
     pass
