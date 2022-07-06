@@ -1,17 +1,21 @@
 #!/usr/bin/python3
-def add_attribute(obj, name, value):
-    """ Function that adds a new attribute to an object
+"""Module: 100-my_int.
+Defines a class that inherits from int.
+"""
 
-    Args:
-        obj: object
-        name: attribute name
-        value: attribute value
 
-    Raises:
-        TypeError: when the attribute can't be added
-
+class MyInt(int):
+    """MyInt inheriting from int
+    and alters the behaviour of __eq__ and
+    __ne__ methods
     """
 
-    if not hasattr(obj, "__dict__"):
-        raise TypeError("can't add new attribute")
-    setattr(obj, name, value)
+    def __eq__(self, other):
+        """Equal to returns not equal to."""
+
+        return super().__ne__(other)
+
+    def __ne__(self, other):
+        """Not equal to returns equal to."""
+
+        return super().__eq__(other)
