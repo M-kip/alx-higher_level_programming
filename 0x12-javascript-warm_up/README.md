@@ -24,3 +24,4 @@
 | ----- | ----------- |
 | 0-javascript_is_amazing.js | prints javascript is amazing |
 | 1-multi_languages.js | prints couple of strings |
+| 2-arguments \ passing command lines args to program |
