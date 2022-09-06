@@ -30,3 +30,4 @@
 | 5-to_integer.js | checks if input is integer |
 | 6-multi_languages_loop.js | prints languages using loop |
 | 7-multi_c.js | script that print x times C is fun |
+| 8-square.js | prints a square of give dimentions |
