@@ -26,3 +26,4 @@
 | 1-multi_languages.js | prints couple of strings |
 | 2-arguments | passing command lines args to program |
 | 3-value_argument | checks for cmd line argument with using the property length |
+| 4-concat.js | concatenates 2 string with the format is |
