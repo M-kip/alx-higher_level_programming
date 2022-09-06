@@ -28,3 +28,4 @@
 | 3-value_argument | checks for cmd line argument with using the property length |
 | 4-concat.js | concatenates 2 string with the format is |
 | 5-to_integer.js | checks if input is integer |
+| 6-multi_languages_loop.js | prints languages using loop |
